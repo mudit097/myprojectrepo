@@ -7,6 +7,9 @@ pipeline {
                     image 'centos'
                 }
             }
+            steps {
+                sh 'date'
+            }
         }
     }
 }
