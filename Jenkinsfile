@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'docker run --name muditos2 ubuntu'
+                sh 'docker run --name muditos5 ubuntu'
             }
         }
   }
