@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'docker build -t "secdev:Dockerfile" .'
+                sh 'docker build -t secdev:Dockerfile .'
             }
         }
   }
