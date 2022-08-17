@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Git Checkout'){
             steps{
-                git branch: 'dev', url: 'https://github.com/mudit097/terraform.tf.git'
+                git branch: 'main', url: 'https://github.com/mudit097/terraform.tf.git'
             }
         }
         stage('Build') {
