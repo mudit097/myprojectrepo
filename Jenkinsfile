@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'docker run --name muditos3 ubuntu'
+                sh 'docker build -t "secdev:Dockerfile'
             }
         }
   }
